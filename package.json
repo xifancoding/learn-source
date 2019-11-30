@@ -1,0 +1,23 @@
+{
+  "name": "learn-source",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "yxh",
+  "license": "ISC",
+  "dependencies": {
+    "@types/fs-extra": "^8.0.1",
+    "fs-extra": "^8.1.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.2.0",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.2"
+  }
+}
