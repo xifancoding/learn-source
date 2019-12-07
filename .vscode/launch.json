@@ -8,6 +8,8 @@
             "type": "node",
             "request": "launch",
             "name": "Launch index.ts",
+            "preLaunchTask": "build",
+            "runtimeExecutable": "node",
             "runtimeArgs": [
                 "-r",
                 "ts-node/register"
